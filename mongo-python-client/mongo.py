@@ -5,7 +5,7 @@ import datetime
 class MongodbConn(object):
 
     def __init__(self):
-        self.CONN = pymongo.MongoClient("mongodb://admin:adminpw@125.216.243.88:27017")
+        self.CONN = pymongo.MongoClient("mongodb://admin:adminpw@127.0.0.1:27017")
 
     def run(self):
         database = "test_db"

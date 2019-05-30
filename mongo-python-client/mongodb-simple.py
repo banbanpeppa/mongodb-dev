@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 import datetime
 from pymongo import MongoClient
-client = MongoClient("mongodb://admin:adminpw@125.216.243.88:27017")
+client = MongoClient("mongodb://admin:adminpw@127.0.0.1:27017")
 
 db = client.pythondb
 
